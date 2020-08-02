@@ -11,13 +11,14 @@ def monopoly
 end
 
 def monopoly_with_second_tier
-	monopoly = {:railroads=> { :pieces=>4, :names=>{}, :rent_in_dollars=>{} } } # sets value of railroads to 3 hashes, pieces w/ value of 4, names key w/ value of empty array
+	monopoly = {:railroads=> { :pieces=>4, :names=>{}, :rent_in_dollars=>{} } } # sets value of railroads to 3 hashes, pieces w/ value of 4, names key w/ value of empty array, rent_in_dollars key w/ value of empty array
 
 end
 
 def monopoly_with_third_tier
 <<<<<<< HEAD
 	monopoly = {:railroads=> { :pieces=>4, :names=>{ :reading_railroad=> {}, :pennsylvania_railroad=>{}, :b_and_o_railroad=>{}, :shortline=>{}}, :rent_in_dollars=>{ :one_piece_owned=>25, :two_pieces_owned=>50, :three_pieces_owned=>100, :four_pieces_owned=>200} } }
+	# 
 =======
   monopoly =  {
   :railroads=>
