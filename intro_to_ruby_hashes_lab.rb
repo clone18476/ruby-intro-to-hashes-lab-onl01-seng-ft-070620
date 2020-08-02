@@ -7,7 +7,7 @@ def actor
 end
 
 def monopoly
-	hash = { :railroads=> {} }
+	hash = { :railroads=> {} } #monopoly method sets hash to key of railroads with value of an empty hash, this begins our nested hash
 end
 
 def monopoly_with_second_tier
